@@ -1,0 +1,220 @@
+body{
+    background-color: #00354F;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(/Media/fondonna.svg);
+background-size: 10%;
+}
+.header{
+background-color: #00797F;
+width: auto;
+height: 100px;
+}
+@font-face {
+    font-family: kashimabrush;
+    src: url(/Media/Kashima\ Demo.otf);
+}
+@font-face {
+    font-family: simplechalk;
+    src: url(/Media/Simple\ Chalk.ttf);
+}
+p{
+    color: white;
+    font-family: simplechalk;
+    font-size: 30px;
+}
+.titulo{
+    color: white;
+    font-family: simplechalk;
+    font-size: 50px;
+    text-align: center;
+}
+.menu{
+    text-align: right;
+    padding-top: 40px;
+}
+.menu > a{
+    max-width: 1250px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 300%;
+    padding-right: 50px;
+    font-family: kashimabrush;
+
+}
+.titulo1{
+    text-align: center;
+    font-size: 70px;
+    opacity: 50%;
+    font-family: Arial, Helvetica, sans-serif
+}
+.ola{
+    bottom: 0%;
+}
+.contenedor2{
+width: 60%;
+margin: auto;
+justify-content: center;
+align-items: center;
+display: flex;
+padding-bottom: 80px;
+}
+
+.vectorn{
+    opacity: 50%;    
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    padding-right: 10%;
+
+}
+.tituloexp{
+    font-size: 50px
+}
+.contenedor3{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.SGP{
+    width: 200px;
+    padding-right: 10%;
+}
+.minombre{
+    font-size: 50px;
+}
+.contenedor4{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.SMR{
+    width: 200px;
+    padding-right: 10%;
+}
+.Snombre{
+    font-size: 50px;
+}
+.contenedor5{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.SQL{
+    width: 200px;
+    padding-right: 10%;
+}
+.Qnombre{
+    font-size: 50px;
+}
+.contenedor6{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.JMC{
+    width: 200px;
+    padding-right: 10%;
+}
+.Jnombre{
+    font-size: 50px;
+}
+a{
+    color: white;
+}
+.yotexto{
+    width: 400px;
+}
+.Stexto{
+    width: 400px;
+}
+.Qtexto{
+    width: 400px;
+}
+.Jtexto{
+    width: 400px;
+}
+.integrantes{
+    font-size: 70px;
+    text-align: center;
+}
+@media screen and (max-width:576px){
+    p{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    .menu > a{
+        font-size: 250%;
+        padding-right: 40px;
+    }
+    body{
+        background-size: 25%;
+    }
+    .logo{
+        width: 300px;
+    }
+    .tituloexp{
+        font-size: 30px;
+    }
+    .minombre{
+        font-size: 30px;
+    }
+    .Snombre{
+        font-size: 30px;
+    }
+    .Qnombre{
+        font-size: 30px;
+    }
+    .Jnombre{
+        font-size: 30px;
+    }
+    .SGP{
+        width: 300px;
+    }
+    .SMR{
+        width: 300px;
+    }
+    .SQL{
+        width: 300px;
+    }
+    .JMC{
+        width: 300px;
+    }
+    .contenedor2{
+        width: 90%;
+        padding-left: 40px;
+    }
+    .contenedor3{
+        width: 90%;
+        padding-left: 40px;
+    }
+    .contenedor4{
+        width: 90%;
+        padding-left: 40px;
+    }
+    .contenedor5{
+        width: 90%;
+        padding-left: 40px;
+    }
+    .contenedor6{
+        width: 90%;
+        padding-left: 40px;
+    }
+    }
